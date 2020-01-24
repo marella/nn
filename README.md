@@ -1,5 +1,7 @@
 A neural network library built on top of TensorFlow for quickly building deep learning models.
 
+[![Build Status](https://travis-ci.org/marella/nn.svg?branch=master)](https://travis-ci.org/marella/nn)
+
 ## Usage
 
 `nn.Tensor` is the core data structure which is a wrapper for `tf.Tensor` and provides additional functionality. It can be created using the `nn.tensor()` function:
