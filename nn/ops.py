@@ -37,10 +37,10 @@ magic_ops = [
 ]
 
 binary_ops = {
-    'gather', '__add__', '__radd__', '__sub__', '__rsub__', '__mul__',
-    '__rmul__', '__div__', '__rdiv__', '__truediv__', '__rtruediv__',
-    '__floordiv__', '__rfloordiv__', '__mod__', '__rmod__', '__lt__', '__le__',
-    '__gt__', '__ge__', '__ne__', '__eq__', '__and__', '__rand__', '__or__',
-    '__ror__', '__xor__', '__rxor__', '__getitem__', '__pow__', '__rpow__',
-    '__matmul__', '__rmatmul__'
+    'gather', 'minimum', 'maximum', '__add__', '__radd__', '__sub__',
+    '__rsub__', '__mul__', '__rmul__', '__div__', '__rdiv__', '__truediv__',
+    '__rtruediv__', '__floordiv__', '__rfloordiv__', '__mod__', '__rmod__',
+    '__lt__', '__le__', '__gt__', '__ge__', '__ne__', '__eq__', '__and__',
+    '__rand__', '__or__', '__ror__', '__xor__', '__rxor__', '__getitem__',
+    '__pow__', '__rpow__', '__matmul__', '__rmatmul__'
 }

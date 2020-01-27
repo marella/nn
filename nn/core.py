@@ -24,6 +24,14 @@ class Tensor():
     def __repr__(self):
         return 'nn.Tensor' + repr(self.tf())
 
+    # Support pickle and multiprocessing
+
+    def __getstate__(self):
+        return self._value
+
+    def __setstate__(self, state):
+        self._value = state
+
 
 def tensor(x, *args, **kwargs):
     if isinstance(x, Tensor):
